@@ -1,0 +1,18 @@
+/* styles.css or global.css */
+
+/* Circular rotating animation for the text */
+@keyframes scrollText {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Apply the animation to the rotating text */
+  .animate-scrollText {
+    animation: scrollText 15s linear infinite;
+    transform-origin: center;
+  }
+  
