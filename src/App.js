@@ -5,6 +5,8 @@ import HeroSection from './components/sections/HeroSection';
 import ServicesSection from './components/sections/ServicesSection';
 import FeaturesSection from './components/sections/FeaturesSection';
 import Form from './components/Form';
+import PortfolioSection from './components/sections/PortfolioSection';
+
 
 const MainContent = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,6 +29,7 @@ const MainContent = () => {
       <Navigation isScrolled={isScrolled} />
       <HeroSection />
       <ServicesSection />
+      <PortfolioSection /> 
       <FeaturesSection />
     </div>
   );
