@@ -89,7 +89,7 @@ const ServiceCard = ({ service, onGetStarted }) => {
 const ServicesSection = () => {
   // Function to open WhatsApp instead of using signInWithGoogle
   const openWhatsApp = () => {
-    window.open('https://wa.me/919876543210', '_blank');
+    window.open('https://wa.me/918587880823', '_blank');
   };
 
   return (
