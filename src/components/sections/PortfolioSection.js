@@ -7,15 +7,15 @@ const PortfolioSection = () => {
   // Portfolio projects data
   const projects = [
     {
-      id: 'reelquiz',
-      title: 'Reel Quiz',
-      tagline: 'Interactive Quiz Platform',
-      url: 'https://reelquiznew.vercel.app/quiz',
-      description: 'Feature-rich quiz platform with sleek UI, complete user authentication, and Supabase database integration.',
-      deliveryTime: '15 hours',
-      bgGradient: 'from-blue-600 to-indigo-600',
-      techStack: ['React', 'Next.js', 'Supabase', 'Tailwind CSS'],
-      features: ['User Authentication', 'Database Integration', 'Real-time Leaderboard', 'Interactive Quiz Creator']
+      id: 'z4biz',
+      title: 'Z4Biz',
+      tagline: 'Business Solutions Platform',
+      url: 'https://z4biz.com',
+      description: 'Dubai-based Enterprise solution provider',
+      deliveryTime: '2 days',
+      bgGradient: 'from-teal-500 to-cyan-600',
+      techStack: ['React', 'Next.js', 'GraphQL', 'MongoDB'],
+      features: ['Backend Form Submission', 'Thoughtful UI/UX', 'Customizable Sections', 'Fluid and Dynamic']
     },
     {
       id: 'animalidentifier',
