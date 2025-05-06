@@ -10,7 +10,7 @@ const PortfolioSection = () => {
       id: 'z4biz',
       title: 'Z4Biz',
       tagline: 'Business Solutions Platform',
-      url: 'https://z4biz.com',
+      url: 'https://www.z4biz.com/',
       description: 'Dubai-based Enterprise solution provider',
       deliveryTime: '2 days',
       bgGradient: 'from-teal-500 to-cyan-600',
